@@ -1,0 +1,38 @@
+.true {
+    margin-bottom: 123px;
+}
+
+.true__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.true__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.true__title {
+    width: min(594px, 100%);
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    color: #18191F;
+}
+
+.true__txt {
+    width: min(573px, 100%);
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.true__images {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 40px;
+}

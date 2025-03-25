@@ -1,0 +1,39 @@
+.brand {
+    margin-bottom: 125px;
+}
+
+.brand__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand__title {
+    width: min(445px, 100%);
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.brand__txt {
+    margin-top: 8px;
+    width: min(445px, 100%);
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.brand__images {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 65px;
+}
+
+.brand__img {
+    margin-top: -35px;
+    margin-bottom: -45px;
+}

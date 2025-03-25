@@ -1,0 +1,146 @@
+.real {
+    margin-bottom: 84px;
+}
+
+.real__titles {
+    margin-left: 160px;
+}
+
+.real__title {
+    position: relative;
+    width: min(445px, 100%);
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    color: #18191F;
+}
+
+.real__title::before {
+    content: url(../img/main/“.svg);
+    position: absolute;
+    left: -95px;
+    top: -60px;
+    z-index: -1;
+}
+
+.real__txt {
+    margin-top: 10px;
+    width: min(245px, 100%);
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #18191F;
+}
+
+.real__boxes {
+    margin-left: 254px;
+    display: flex;
+    gap: 30px;
+}
+
+.real__box {
+    margin-top: 24px;
+    width: min(960px, 100%);
+    padding: 25px 32px 96px 64px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px #29292A12;
+}
+
+.real__boxone {
+    height: 550px;
+}
+
+.real__box-second {
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.real__boxsec {
+    padding: 45px 32px 14px 64px;
+    width: min(445px, 100%);
+}
+
+.real__boxthourd {
+    width: min(350px, 100%);
+    padding: 41px 32px 32px 64px;
+}
+
+.real__box-txt {
+    position: relative;
+    margin-top: -30px;
+    width: min(254px, 100%);
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.real__boxsec-txt {
+    width: min(330px, 100%);
+    margin-top: 15px;
+}
+
+.real__boxthourd-txt {
+    width: min(225px, 100%);
+    margin-top: 5px;
+
+}
+
+.real__box-txt::before {
+    content: url(../img/main/“_blou.svg);
+    position: absolute;
+    left: -35px;
+    top: -10px;
+    z-index: -1;
+}
+
+.real__box-title {
+    padding: 24px 0 10px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    color: #18191F;
+}
+
+.real__box-span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #969BAB;
+}
+
+@media (width <= 1125px) {
+    .real__titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    
+    .real__boxes {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .real__box-second {
+        align-items: center;
+    }
+
+    .real__box {
+        width: min(350px, 100%);
+    }
+
+    .real__boxsec {
+        margin-top: 135px;
+    }
+}
+
+@media (width <= 660px) {
+    .real__title::before {
+        display: none;
+    }
+}
