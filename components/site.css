@@ -15,8 +15,18 @@
 
 .site__back-img {
     position: absolute;
-    top: 1px;
-    left: -35px;
+    top: 330px;
+    left: -20px;
+}
+
+.top {
+    top: 0;
+    left: 500px;
+}
+
+.right {
+    left: 1170px;
+    top: 360px;
 }
 
 .site__title {
@@ -41,4 +51,34 @@
     color: #fff;
     background: none;
     border: none;
+}
+
+@media (width <= 1265px) {
+    .site__back-img {
+        display: none; 
+    }
+}
+
+@media (width <= 1112px) {
+    .site__title {
+        font-size: 45px;
+    }
+}
+
+@media (width <= 930px) {
+    .site__title {
+        font-size: 30px;
+    }
+}
+
+@media (width <= 777px) {
+    .site__big {
+        padding: 70px;
+    }
+}
+
+@media (width <= 475px) {
+    .site__title {
+        font-size: 20px;
+    }
 }

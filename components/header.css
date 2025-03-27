@@ -97,12 +97,41 @@
     width: 10px;
 }
 
-/* *::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: red;
-} */
-
 *::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #B00000;
-  }
+}
+
+@media (width <= 1000px) {
+    .header__img-red {
+        display: none;
+    }
+}
+
+@media (width <= 1030px) {
+    .header__all {
+        flex-direction: column;
+    }
+
+    .header__big {
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+@media (width <= 645px) {
+    .header__title {
+        font-size: 35px;
+    }
+}
+
+@media (width <= 640px) {
+    .header__bg {
+        width: 60%;
+    }
+
+    .header__images {
+        display: flex;
+        justify-content: center;
+    }
+}

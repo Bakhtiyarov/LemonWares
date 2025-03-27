@@ -143,4 +143,8 @@
     .real__title::before {
         display: none;
     }
+
+    .real__title {
+        font-size: 34px;
+    }
 }

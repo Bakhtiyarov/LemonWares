@@ -37,3 +37,31 @@
     margin-top: -35px;
     margin-bottom: -45px;
 }
+
+@media (width <= 980px) {
+    .brand__all {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .brand__titles {
+        justify-items: center;
+        text-align: center;
+    }
+
+    .brand__txt {
+        margin-top: 25px;
+    }
+}
+
+
+@media (width <= 585px) {
+    .brand__images {
+        grid-template-columns: repeat(2, 3fr);
+    }
+
+    .brand__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}

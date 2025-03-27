@@ -68,6 +68,10 @@
     background: #000;
     border-radius: 50%;
     transition: 0.4s;
+
+    @media (width <= 425px) {
+        left: 1px;
+    }
 }
 
 .choice__input:checked+.choice__slider {
@@ -184,4 +188,30 @@
     font-weight: 600;
     font-size: 16px;
     color: #808080;
+}
+
+@media (width <= 1105px) {
+    .lemon__grids {
+        gap: 25px;
+    }
+}
+
+@media (width <= 955px) {
+    .lemon__grids {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media (width <= 642px) {
+    .lemon__grids {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .lemon__list {
+        gap: 150px;
+    }
+
+    .lemon__title {
+        font-size: 30px;
+    }
 }

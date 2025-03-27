@@ -36,3 +36,33 @@
     grid-template-columns: repeat(3, 2fr);
     gap: 40px;
 }
+
+@media (width <= 1180px) {
+    .true__all {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .true__text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .true__images {
+        justify-items: center;
+    }
+}
+
+@media (width <= 585px) {
+    .true__images {
+        grid-template-columns: repeat(2, 3fr);
+    }
+
+    .true__title {
+        font-size: 30px;
+    }
+
+    .true__txt {
+        font-style: 10px;
+    }
+}

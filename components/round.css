@@ -28,3 +28,15 @@
     font-size: 12px;
     color: #000;
 }
+
+@media (width <= 880px) {
+    .round__grids {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+@media (width <= 618px) {
+    .round__grids {
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
